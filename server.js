@@ -11,6 +11,7 @@ var flash = require('express-flash');
 var MongoStore = require('connect-mongo/es5')(session);
 var passport = require('passport');
 
+// const port = process.env.PORT || 3000;
 
 var secret = require('./config/secret');
 var User = require('./models/user');
