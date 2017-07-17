@@ -1,6 +1,6 @@
 module.exports = {
 
-  database: 'mongodb://yogesh:123456@ds153422.mlab.com:53422/safe',
+  database: 'mongodb://tuba:qwertykeypad.1@ds121192.mlab.com:21192/ecommerce',
   port: process.env.PORT || 3000 ,
   secretKey: "Tuba@2021"
 }
